@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example test run">
+    <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListener" />
+</listeners>
+    <test name="Simple Test">
+        <classes>
+            <class name="com.qa.testcases.homepageTest"/>
+        </classes>
+    </test>
+</suite>
